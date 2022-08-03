@@ -17,3 +17,7 @@ Route::get('/', function () {
     return view('index'); 
 });
 
+Route::get('/create', function(){
+    return view('create');
+})->name('create');
+
