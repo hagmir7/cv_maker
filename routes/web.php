@@ -21,3 +21,8 @@ Route::get('/create', function(){
     return view('create');
 })->name('create');
 
+
+Route::get('/cv', function(){
+    return view('cv');
+})->name('cv');
+
