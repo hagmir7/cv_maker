@@ -8,17 +8,17 @@
         <div class="col-6 border">
           <div>
             <p>
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                    deplao
-                </button>
-                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#ex1" aria-expanded="false" aria-controls="ex1">
-                    deplao
-                </button>
-            </p>
-              <div class="collapse" id="collapseExample">
-                <div class="card card-body">
-                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                <div class="card" type="button" data-bs-toggle="collapse" data-bs-target="#info">
+                    information personnel 
                 </div>
+              </p>
+              <div class="collapse" id="info">
+                <div class="card card-body">
+                  
+                </div>
+              </div>
+              <div class="card" type="button" data-bs-toggle="collapse" data-bs-target="#ex1" aria-expanded="false" aria-controls="ex1">
+                  deplao
               </div>
 
 
